@@ -2,7 +2,7 @@ import os
 import hikari
 from dotenv import load_dotenv
 from openai import OpenAI
-
+print("Maybe Running...")
 load_dotenv()
 
 client = OpenAI(api_key=os.environ["DS_API_KEY"], base_url="https://api.deepseek.com")
